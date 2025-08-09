@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+
+}
+
+.main-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.hero-section {
+    width: 100%;
+    min-height: 100vh;
+    /* box-shadow: 0 4px 50px #000; */
+    background-size: cover;
+    background-position: center;
+    background-image: url(assests/bg-img/hero-bg.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* justify-content: start; */
+    /* align-items: center; */
+
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 25px;
+    width: 100%;
+    height: 10%;
+    margin-left: 65px;
+}
+
+.header-container-logo {
+    display: flex;
+    /* align-items: center; */
+}
+
+.logo-title {
+    color: #fff;
+    font-family: "dancing Script", cursive;
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header-container-navbar {
+    margin-left: 310px;
+}
+
+.navbar-navigation-ul {
+    display: flex;
+    /* align-items: center; */
+}
+
+.navbar-navigation-li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.navbar-navigation-li-a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.header-container-options {
+    display: flex;
+    /* align-items: center; */
+    margin-left: 70px;
+}
+
+.header-option-a {}
+
+.fa-user, .fa-cart-shopping, .fa-magnifying-glass {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.header-container-link {
+    display: flex;
+    /* align-items: center; */
+}
+
+.header-link-a, .slider-description-a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: #ffbe33;
+    padding: 8px 30px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    width: 170px;
+}
+
+/* ---------------------------------------------------------- */
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+    margin-left: 65px;
+    width: 100%;
+}
+
+.slider-description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 50%;
+
+}
+
+.slider-description-title {
+    color: #fff;
+    font-family: "Dancing Script", cursive;
+    font-size: 56px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.slider-descrption-p {
+    color: #fff;
+    width: 550px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.3rem;
+}
+
+.slider-description-a {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-nav-container {}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+/* --------------------------------------------------------- */
+.special-offres-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 65px;
+    gap: 20px;
+}
+
+.offre-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    background-color: #222831;
+    padding: 25px 15px;
+    min-width: 45%;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.offre-image-container {
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.offre-image {
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    border: 5px solid #ffbe33;
+}
+
+.offre-description-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 25px;
+}
+
+.offre-title-h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.offre-discount-p {
+    font-family: "Dancing Script", cursive;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.offre-order {}
+
+.offre-order-a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: #ffbe33;
+    padding: 8px 30px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    width: 170px;
+}
+
+.fa-cart-plus {
+    /* margin-left: 10px; */
+    color: #fff;
+}
+
+/* ----------------------------------------------------------- */
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 65px;
+    margin-bottom: 60px;
+}
+
+.menu-section-title {}
+
+.menu-title-h2 {
+    text-transform: capitalize;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    color: #0C0C0C;
+}
+
+.menu-section-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-navbar-ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+.menu-navbar-li {
+    list-style: none;
+}
+
+.menu-navbar-a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    color: #0C0C0C;
+    transition: ease-in-out 0.3s;
+
+}
+
+.menu-navbar-a:hover {
+    text-transform: capitalize;
+    background-color: #0C0C0C;
+    padding: 8px 30px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.menu-section-cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    width: 30%;
+    border-radius: 17px;
+    background-color: #222831;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+
+.card-image {
+    background-color: #F1F2F3;
+    border-radius: 15px 15px 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.card-img-logo {
+    height: 200px;
+    width: 200px;
+}
+
+.card-description {
+    padding: 25px 20px;
+}
+
+.card-description-title {
+    margin-bottom: 15px;
+}
+
+.card-description-title-h2 {
+    font-family: "Open sans", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.card-description-p {
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.card-price-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card-price-value {
+    color: #fff;
+}
+
+.card-action-order {
+    background-color: #ffbe33;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.menu-section-extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-section-a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: #ffbe33;
+    padding: 8px 40px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    width: 170px;
+}
+
+/* -------------------------------------------------------------------- */
+
+.feane-section {
+    background-color: #222831;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 100px;
+    margin-bottom: 60px;
+
+}
+
+.feane-section-img {
+    max-width: 50%;
+    /* display: flex;
+    align-items: start;
+    justify-content: start; */
+}
+
+.feane-img {
+    width: 400px;
+    height: 500px;
+}
+
+.feane-section-description {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feane-title-h2 {
+    color: #fff;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.feane-description-p {
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5rem;
+    text-align: justify;
+    /* padding-bottom: 10px; */
+}
+
+.feane-more-a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: #ffbe33;
+    padding: 8px 40px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    width: 170px;
+}
+
+/* ---------------------------------------------------------------------- */
+.book-table-section {
+    margin-left: 65px;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.book-table-form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    min-width: 50%;
+
+}
+
+.book-title-p {
+    color: #222831;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+input {
+    display: block;
+    padding: 15px 25px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    text-transform: capitalize;
+}
+
+select {
+    padding: 15px 25px;
+}
+
+option {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.book-table-btn {
+
+    color: #fff;
+    text-transform: capitalize;
+    background-color: #ffbe33;
+    padding: 10px 50px;
+    border-radius: 25px;
+    border: 1px solid;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    width: 200px;
+}
+
+.google-map {
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.google-map-p {
+    padding: 10px 20px;
+    margin-right: 65px;
+    text-align: justify;
+}
+
+/* -------------------------------------------------------------------------- */
+.footer-section {
+    width: 100%;
+    background-color: #222831;
+}
