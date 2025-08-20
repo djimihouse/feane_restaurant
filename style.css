@@ -20,7 +20,7 @@ body {
 .hero-section {
     width: 100%;
     min-height: 100vh;
-    /* box-shadow: 0 4px 50px #000; */
+    box-shadow: 0 4px 30px #000;
     background-size: cover;
     background-position: center;
     background-image: url(assests/bg-img/hero-bg.jpg);
@@ -321,15 +321,18 @@ span {
 }
 
 .menu-section-cards {
-    width: 100%;
-    display: flex;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    /* display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 
 .card-container {
-    max-width: 28%;
+    /* max-width: 30%; */
     border-radius: 17px;
     background-color: #222831;
     /* margin-right: 35px; */
